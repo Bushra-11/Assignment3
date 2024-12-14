@@ -4,8 +4,6 @@ async function getData() {
     console.log(response.ok);
     console.log(response.status);
     
-
-
     const data = await response.json();
     
     console.log(data);
@@ -24,9 +22,6 @@ async function getData() {
     `;
     tableBody.appendChild(row); //it appends each row to the table body
   });
-
-
-
 
 }
 
